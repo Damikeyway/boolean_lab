@@ -14,3 +14,4 @@ class Test(TestCase):
 
     def test_false_float(self):
         self.assertEqual(bool(false_float()), False)
+
